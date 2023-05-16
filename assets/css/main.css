@@ -1,4 +1,4 @@
-body,content,inside,
+/* body,content,inside,
 {   
     /* margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@ body,content,inside,
     /* border: 3px solid green; */
 
 
-}
 
 header {
     position: absolute;
@@ -93,4 +92,38 @@ body{
   
   .my-button:hover {
     background-color: rgba(0, 0, 0, 0.7); /* 设置鼠标悬停时的背景颜色 */
+  }
+
+.secondaryPage {
+    display: none;
+  }
+
+
+  #wrapper:before {
+    content: '';
+    display: block;
+  }
+
+  @media screen and (max-width: 1680px) {
+
+    #wrapper {
+      padding: 3rem 2rem;
+    }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+    #wrapper {
+      padding: 2rem 1rem;
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    #wrapper {
+      padding: 1rem;
+    }
+
   }
